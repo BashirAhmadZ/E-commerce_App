@@ -1,0 +1,72 @@
+*.icon-white {
+	color: white
+}
+
+*.icon-silver {
+	color: silver
+}
+
+*.icon-green {
+	color: green
+}
+
+*.icon-dark {
+	color: gray
+}
+
+@media screen and (max-width: 768px) {
+	/* small screen */
+	div.full-details {
+		display: none
+	}
+	div.less-details {
+		display: block;
+	}
+	.hstack {
+  		display: block;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	/* medium screen */
+	div.full-details {
+		display: block;
+	}
+	div.less-details {
+		display: none;
+	}
+	.hideable-column {
+		display: none;
+	}
+	.hstack {
+  		display: flex;
+  		flex-direction: row;
+ 
+  		align-self: stretch;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	/* big screen */
+	div.less-details {
+		display: none;
+	}
+	.hideable-column {
+		display: table-cell;
+	}
+	.hstack {
+  		display: flex;
+  		flex-direction: row;
+  		align-items: center;
+  		align-self: stretch;
+	}
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(0, 0, 160); /* Change color on hover */
+	text-decoration: none; /* Add underline on hover */
+}

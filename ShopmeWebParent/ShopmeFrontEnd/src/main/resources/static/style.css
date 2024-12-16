@@ -1,0 +1,40 @@
+*.icon-white {
+	color: white
+}
+
+*.icon-silver {
+	color: silver
+}
+
+*.icon-green {
+	color: green
+}
+
+*.icon-dark {
+	color: gray
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #007bff; /* Change color on hover */
+	text-decoration: underline; /* Add underline on hover */
+}
+
+.fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-facebook {
+  color: #3b5998;
+  background-image: linear-gradient( transparent 5%, white 20%, white 93%, transparent 93% );
+  background-size: 49%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
